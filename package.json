@@ -1,0 +1,32 @@
+{
+  "name": "allele",
+  "version": "1.0.0",
+  "description": "Self-evolving genetic algorithm agent for Robinhood Chain stock trading",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "evolve": "node src/index.js --evolve",
+    "trade": "node src/index.js --trade",
+    "backtest": "node src/index.js --backtest",
+    "test": "node --test"
+  },
+  "keywords": [
+    "trading",
+    "genetic-algorithm",
+    "robinhood",
+    "agent",
+    "ai",
+    "stocks"
+  ],
+  "author": "barkbarkbankr",
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "dotenv": "^16.4.0",
+    "node-fetch": "^3.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
